@@ -102,7 +102,7 @@ assemble(
 assemble(
     title     = 'How to Handle "I Need to Think About It" on a Sales Call | Jay Mora',
     piece1_path = f"{PAGES_DIR}/ESSAY-WEEK03-PIECE1-HEADER-v5.txt",
-    piece2_path = f"{PAGES_DIR}/ESSAY-WEEK03-PIECE2-BODY-v5.txt",
+    piece2_path = f"{PAGES_DIR}/ESSAY-WEEK03-PIECE2-BODY-v6.txt",
     out_path  = f"{OUT_DIR}/i-need-to-think-about-it-sales-objection/index.html",
     slug      = "i-need-to-think-about-it-sales-objection",
 )
