@@ -1,6 +1,12 @@
 [build]
   publish = "."
 
+[[redirects]]
+  from = "/the-closer-who-talks-25-percent-closes-more"
+  to = "/talk-less-close-more"
+  status = 301
+  force = true
+
 # Cache static assets aggressively
 [[headers]]
   for = "/*.html"
