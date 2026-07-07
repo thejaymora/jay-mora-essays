@@ -42,7 +42,7 @@ New facts the old plan did not know at all: the July 1 financial audit and clean
 
 ## Section 1: Who and What the Business Is
 
-**Legal entity:** Property Renovators, LLC. **Ownership needs one authoritative answer, because the sources conflict.** The sworn April 30 court filing (Property Renovators LLC v. Matthew Audrey, Montgomery County District Court) states **Jacob Mora is 99% owner-operator and Jay Mora is 1% owner and the holder of the Maryland contractor license.** The July 1 internal financial SOP instead characterized it as a 50/50 LLC. A sworn court document is the stronger evidence, so treat 99/1 (Jacob/Jay) as the working truth until confirmed. Separately, **there is no confirmed Operating Agreement** — whatever the true split, that gap (deadlock, buyout, succession) is a real risk and is on the cleanup list (Section 10). Note the "40% revenue share" below is Jay's compensation, not an equity stake (see the structural story).
+**Legal entity:** Property Renovators, LLC. **Ownership is officially 50/50 between Jay Mora and Jacob Mora** (Jay's confirmation, July 7, 2026). This resolves the earlier conflict: the April 30 court filing had listed a 99/1 split (Jacob/Jay), but the current, authoritative position is an even 50/50. Jay separately holds the Maryland contractor license. **There is still no confirmed Operating Agreement**, and a 50/50 company especially needs one (deadlock, buyout, succession) — that gap is on the cleanup list (Section 10). Note the "40% revenue share" below is Jay's compensation on jobs he manages, a separate matter from the 50/50 equity split (see the structural story).
 
 **Brands:**
 - **Property Renovators Home Services**: the primary customer-facing brand.
@@ -63,7 +63,7 @@ New facts the old plan did not know at all: the July 1 financial audit and clean
 - **Insurance agency**: Pacheco and Associates. Monica Pacheco, with Nicole Prado and Tuma handling day-to-day. Carrier for GL: Frederick Mutual.
 - **Advisors**: Chris Thompson (realtor mentor, weekly 1:1, source of the MLS-to-PM-list play), Olu / REIUnlock (business systems, HCP API automation "PropScope", holds the 48-contact DC PM list under confidentiality).
 
-**The structural story of 2026:** Jay is taking over and scaling his father's trade business. The compensation deal on record (June 12 REIUnlock recap) is **a 40% revenue share to Jay on the jobs Jay manages** — it is compensation for the work he runs, not 40% of all company revenue and not an equity stake (equity is the 99/1 question above). Jay is moving Jacob toward a supervisory role and stacking three revenue tracks on one license-and-reputation foundation: handyman, HVAC, and aging-in-place safety work. A concrete proof point of the model working: the first job Jay priced and sold under it was a $5,200 bathroom retrofit closed in 48 minutes, against Jacob's typical $3,200 pricing on similar work. The coaching business was wound down in June 2026 to make room for this.
+**The structural story of 2026:** Jay is taking over and scaling his father's trade business. The compensation deal on record (June 12 REIUnlock recap) is **a 40% revenue share to Jay on the jobs Jay manages** — it is compensation for the work he runs, not 40% of all company revenue and separate from the 50/50 equity split above. Jay is moving Jacob toward a supervisory role and stacking three revenue tracks on one license-and-reputation foundation: handyman, HVAC, and aging-in-place safety work. A concrete proof point of the model working: the first job Jay priced and sold under it was a $5,200 bathroom retrofit closed in 48 minutes, against Jacob's typical $3,200 pricing on similar work. The coaching business was wound down in June 2026 to make room for this.
 
 ---
 
@@ -82,7 +82,7 @@ This is the gate table. Everything customer-facing and every PM application depe
 | Workers compensation | **DOES NOT EXIST** | Open question with the agency since July 5. PM vendor applications commonly reject on this. Decision needed: buy a policy even if Jacob can be excluded as an owner, because PMs want to see it on the COI. |
 | Commercial auto | **QUOTED, NOT BOUND** | Progressive quotes received July 7 (state minimum, liability-only, with and without the sedan). Not bound. Jacob's work vehicle must move to commercial auto. |
 | Surety bond | **ACTIVE** | $30,000, Jet Insurance Company, bond #BX0022428 (via The Bond Exchange). |
-| Operating Agreement | **MISSING** | No confirmed operating agreement. Ownership split itself is unresolved (sworn court filing says Jacob 99% / Jay 1%; internal SOP said 50/50). Resolve the split AND paper the agreement. Cleanup SOP item. |
+| Operating Agreement | **MISSING** | Ownership is officially 50/50 (Jay/Jacob), but there is no confirmed operating agreement. A 50/50 company especially needs one (deadlock, buyout, succession). Draft and sign it. Cleanup SOP item. |
 | Age-in-Place certification | **NOT DONE** | Promised "next week" on June 26. No evidence it happened. Needed for the Section 9 track. |
 
 **The compliance rule that governs everything:** no HVAC work is marketed, quoted, or performed until Section 8's gates are documented. No firm-level lead-safe claims until EPA approval lands. Gas work stays categorically off-limits until WSSC scope is confirmed in writing.
@@ -299,7 +299,7 @@ This track was only a sketch in the old plan. It is now a defined build (the "PR
 The SOP exists, is current, and as of July 7 is essentially unstarted. The strategy document owns it because every growth gate above depends on some piece of it. The compressed sequence:
 
 1. **This month (blocking growth):** bind commercial auto; resolve workers comp in writing; formalize everyone paid for labor (Jacob classification, Marilu W-2/1099, outside Zelle helpers: Mendieta, Garcia, Gallardo et al.); start HCP-to-bank reconciliation of the $124,781.60 unidentified deposits; write off the $16,795 of dead open invoices in HCP (not collectible, per Jay) so receivables reporting is truthful.
-2. **Next 60 days:** resolve the ownership split (sworn court filing 99/1 vs SOP 50/50) and get the operating agreement drafted and signed (deadlock, buyout, succession terms); reclassify the 215 Zelle transfers as member distributions; separate personal spend from the LLC account; begin federal quarterly estimated payments (H&R Block is engaged); stand up QuickBooks categorization (already paid for).
+2. **Next 60 days:** get the operating agreement drafted and signed on the 50/50 split (deadlock, buyout, succession terms); reclassify the 215 Zelle transfers as member distributions; separate personal spend from the LLC account; begin federal quarterly estimated payments (H&R Block is engaged); stand up QuickBooks categorization (already paid for).
 3. **Housekeeping:** Portfolio Recovery paid-in-full letter ($979.72); $927 SDAT triple-charge refund; $1,800 returned-check chargeback resolution; identify the 19 unknown checks ($18,576.98), 11 cash withdrawals ($16,500), and the Codefied Inc. payments ($14,410.84); delete the junk audit files in Drive; build to the $10K to $22K reserve floor.
 
 ---
@@ -356,7 +356,7 @@ Rule for the month, unchanged: mornings are for outreach, afternoons for estimat
 
 **Week 1 (July 8 to 14): Close the gates, sync the systems**
 - Day 1 (Jul 8): Insurance push call: bind commercial auto, workers comp recommendation in writing, additional-insured COI pricing answer, HVAC endorsement status. Baseline the Google review count. Check CDX/lead.paint@epa.gov for firm approval. Verify Brandon's #65489 at the Maryland public lookup (five minutes).
-- Day 2 (Jul 9): HCP in one sitting (confirm with Jacob first, per standing rule): sync pricing to $250/$125/$210, finalize the 2 PRICE PENDING items, purge test junk, tag historical Jeeves imports, create the HVAC Aging pipeline stage, start staging every new lead in the pipeline.
+- Day 2 (Jul 9): HCP in one sitting (confirm with Jacob first, per standing rule): sync pricing to $250/$125/$210, finalize the 2 PRICE PENDING items, purge test junk, tag historical Jeeves imports, write off the 7 dead invoices, create the HVAC Aging pipeline stage, start staging every new lead in the pipeline.
 - Day 3 (Jul 10): Brandon sit-down: finalize revenue share and per-permit numbers, sign the agreement. Then the Maryland HVACR Board call (structure question) same day while it is fresh.
 - Day 4 (Jul 11): Website ship day: the 21 ZIP corrections, Tally city-list fix, founding-date fix. Confirm old-domain 301s and Search Console on the new domain.
 - Day 5 (Jul 12): Build the pitch package PDF (intro letter, services list, PM pricing page, credential one-sheet, W-9, pm-portfolio link). EPA firm receipt stands in for the cert.
@@ -414,7 +414,7 @@ An honest source of truth says what it does not know. These are the holes, so no
 9. **Court Evidence Packet** (April 30, 4 copies in Drive): a compiled evidence packet for a court matter. No document after April references it. Status of the matter unknown; carry it as a contingent liability question, not a strategy item.
 10. **Website page count**: "1,240 pages" is plausible (1,955 files deployed) but was never exactly verified.
 11. **Founding date**: 2016 (site) vs 1994 (directory) vs "20 years in the trades" (story). Pick the truthful line and enforce it everywhere.
-12. **mjm-business-command-center**: this is Jay's own internal dashboard app (MJM = MJM Holding Solutions LLC, Jay's entity; successor to an April Firebase "jaymora-command-center" project), deployed July 7 on the Mora Signature Consulting Netlify team. **Security note: it is publicly reachable with no password. If it displays any financials or customer data, lock it behind auth now.**
+12. **mjm-business-command-center**: this is Jay's own internal dashboard app (MJM = MJM Holding Solutions LLC, Jay's entity; successor to an April Firebase "jaymora-command-center" project), deployed July 7 on the Mora Signature Consulting Netlify team. **Now password-protected (confirmed locked down July 7).**
 13. **Court case status**: Property Renovators LLC v. Matthew Audrey (small claims, $1,800) was prepared/filed as of the April 30 packet; no hearing date or judgment was found in email. Confirm where it stands.
 14. **YouTube channel**: unconfirmed. The vidIQ tools were blocked in this audit, and HCP lists a "YouTube" lead source. Verify whether a business channel exists and whether it produces any leads.
 15. **propertyrenovators.com is available to register** (the exact-match domain). Cheap defensive/brand buy worth considering while the brand migrates.
@@ -423,7 +423,7 @@ An honest source of truth says what it does not know. These are the holes, so no
 18. **The fact-check corrections list** (the 21 ZIP/neighborhood fixes): referenced by the old plan, not found in any current source. Locate or regenerate.
 19. **Networx**: paused, resuming leads July 5. Angi was terminated on purpose; Networx was not. Make the call deliberately instead of letting it resume by default.
 20. **Old-domain redirects**: whether propertyrenovatorshandyman.com 301-redirects to the new domain could not be checked from this environment. Verify in a browser; Jacob's email signature still points at the old domain either way and should be updated.
-21. **Ownership split**: sworn court filing says Jacob 99% / Jay 1%; the internal SOP said 50/50. This must be reconciled before the operating agreement is drafted (Section 1, Section 10).
+21. **Ownership split**: officially 50/50 (Jay/Jacob) as of July 7, 2026, resolving the earlier 99/1-vs-50/50 conflict. The operating agreement still needs drafting on that basis (Section 1, Section 10).
 22. **Recurring cost churn to watch**: the Netlify team ran out of credits July 7 (suspended, then re-enabled after a $20.61 top-up) and has cycled Free to Pro to top-ups since May; the Google Workspace trial billing started July 4; Jacob's Verizon business line is past due. None are strategic, but on ~$1.5K of cash they are real.
 
 ---
