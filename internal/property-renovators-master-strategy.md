@@ -36,7 +36,7 @@ The old plan was written as if the machine was half-built. The audit shows some 
 | Jeeves database: 1,567 records, 825 residential | **Unverified numbers.** The verifiable version, from the June 23 planning call: roughly 4,200 properties serviced over 4 years, 40+ property management companies, all through Jeeves as the middleman. Treat 1,567/825 as unconfirmed until the workbook is located. |
 | Coaching business competing for Jay's time | **On the back burner** ("Still there. It hasn't gone away," June 23). No coaching clients or coaching revenue in the last 30 days, but the infrastructure still runs (Netlify Pro, $21.20/month, credits burning). Jay's time is the trades business now. |
 
-New facts the old plan did not know at all: the July 1 financial audit and cleanup SOP (Section 3 and Section 10), the new Google Workspace and office@propertyrenovatorsgroup.com ops address (created July 4), the Property Renovators Heating and Cooling entity filings, Jay's personal MHIC salesman license (approved July 1), the aging-in-place Medicaid billing track (Section 9), $16,795 in uncollected invoices sitting in HCP, and heavy test-data pollution in HCP that needs purging.
+New facts the old plan did not know at all: the July 1 financial audit and cleanup SOP (Section 3 and Section 10), the new Google Workspace and office@propertyrenovatorsgroup.com ops address (created July 4), the Property Renovators Heating and Cooling entity filings, Jay's personal MHIC salesman license (approved July 1), the aging-in-place Medicaid billing track (Section 9), $16,795 of dead open invoices still sitting on the HCP books (not collectible, per Jay; they need write-off cleanup so reports tell the truth), and heavy test-data pollution in HCP that needs purging.
 
 ---
 
@@ -97,7 +97,7 @@ An 18-month Bank of America audit (January 2, 2025 through June 29, 2026, 2,585 
 - 18-month totals: $200,391.77 in, $194,167.93 out. Net retention over 18 months: about $6,224, roughly 3%. The business works hard and keeps almost nothing. Pricing discipline (Section 5) and PM volume (Section 7) are the fix.
 - Trend is improving: 9 of 18 months were cash-flow negative, worst was July 2025 (minus $5,235), but **June 2026 was the best month on record (plus $7,687)**. Overdraft fees (44 of them, $440) clustered in early 2025 and have nearly stopped.
 - Cash position: statement ending balance $8,573.96 on June 29. Live BoA alert showed $1,557.97 on July 7, down from $2,497.08 on July 4 (the EPA $300, MD SDAT charges, and normal spend). Cash is thin. The Verizon business account went past-due on July 7. The SOP's reserve floor target is $10K to $22K.
-- **$16,795.00 sits uncollected in HCP right now** across 7 open invoices (largest: #45 at $6,990, #150 at $4,200, #174 at $2,300). Most are old. This is the cheapest money in the entire plan: it requires collection calls, not marketing.
+- **$16,795.00 shows as open invoices in HCP** across 7 records (largest: #45 at $6,990, #150 at $4,200, #174 at $2,300). **This is NOT collectible money. Jay's call, July 7: these are dead balances.** The task is bookkeeping, not collections: write them off (or mark them uncollectible) in HCP so the receivables reports stop showing phantom money, and so nothing downstream (loan applications, planning, underwriting) counts it as an asset.
 - $124,781.60 of deposits (62% of all inflow) are unidentified-source and need reconciling against HCP payments. Until that is done, true PR-brand revenue vs Jeeves pass-through vs personal deposits cannot be separated.
 - No federal quarterly estimated taxes have ever been paid. H&R Block is engaged ($1,075 paid). This is a Section 10 priority, not optional.
 - The LLC account is commingled with personal spending (veil-piercing risk), there are 215 informal Zelle transfers with Jacob to reclassify as member distributions (net +$28,300.74 from Jacob), and QuickBooks is paid for ($22/month) but unused.
@@ -185,8 +185,7 @@ So the database splits into two uses:
 
 **What fills the gap right now, zero conflict:**
 1. **Finish and work the PM Marketing Pipeline sheet** (it exists in the Workspace Drive, Montgomery AND Frederick counties, built from the June 23 MLS play with Chris Thompson: bulk-import the serviced addresses, agent-export the PM names, phones, emails). This is the direct replacement for the old plan's "MLS workbook fix." Get it to one clean row per decision-maker, tiered: boutique SFR firms managing 50 to 150 doors first.
-2. **Collect the $16,795 in open invoices.** Fastest cash in the company. Calls, not letters: oldest first, offer payment plans, get paid-in-full where possible.
-3. **Win-back and referral campaigns to PR-brand past customers** (the "Direct Win-Back Target" tag already exists in HCP). These are yours, not Jeeves's. Every past customer gets the neighbor line (see the customer loop below).
+2. **Win-back and referral campaigns to PR-brand past customers** (the "Direct Win-Back Target" tag already exists in HCP). These are yours, not Jeeves's. Every past customer gets the neighbor line (see the customer loop below).
 
 ### Engine 2: The Review and Google Business Profile Machine (permanent, free, compounding)
 
@@ -297,7 +296,7 @@ This track was only a sketch in the old plan. It is now a defined build (the "PR
 
 The SOP exists, is current, and as of July 7 is essentially unstarted. The strategy document owns it because every growth gate above depends on some piece of it. The compressed sequence:
 
-1. **This month (blocking growth):** bind commercial auto; resolve workers comp in writing; formalize everyone paid for labor (Jacob classification, Marilu W-2/1099, outside Zelle helpers: Mendieta, Garcia, Gallardo et al.); start HCP-to-bank reconciliation of the $124,781.60 unidentified deposits; collect the $16,795 AR.
+1. **This month (blocking growth):** bind commercial auto; resolve workers comp in writing; formalize everyone paid for labor (Jacob classification, Marilu W-2/1099, outside Zelle helpers: Mendieta, Garcia, Gallardo et al.); start HCP-to-bank reconciliation of the $124,781.60 unidentified deposits; write off the $16,795 of dead open invoices in HCP (not collectible, per Jay) so receivables reporting is truthful.
 2. **Next 60 days:** operating agreement drafted and signed (50/50 deadlock, buyout, succession terms); reclassify the 215 Zelle transfers as member distributions; separate personal spend from the LLC account; begin federal quarterly estimated payments (H&R Block is engaged); stand up QuickBooks categorization (already paid for).
 3. **Housekeeping:** Portfolio Recovery paid-in-full letter ($979.72); $927 SDAT triple-charge refund; $1,800 returned-check chargeback resolution; identify the 19 unknown checks ($18,576.98), 11 cash withdrawals ($16,500), and the Codefied Inc. payments ($14,410.84); delete the junk audit files in Drive; build to the $10K to $22K reserve floor.
 
@@ -335,7 +334,7 @@ Restated so nothing slips. Every piece of copy, script, post, and page obeys the
 | HVAC gates documented (of 5) | 0 of 5 | 5 of 5 |
 | HVAC systems surveyed and logged | 0 (stage doesn't exist) | 20+ (limited by job volume) |
 | Jacob PR jobs per week | ~0.5 | 4+ |
-| AR collected (of $16,795) | $0 | $5,000+ |
+| Dead invoices written off in HCP (books cleanup) | 0 of 7 | 7 of 7 |
 | Insurance: commercial auto bound, WC resolved, COIs ready | 0 of 3 | 3 of 3 |
 | HCP pipeline in use (close rate measurable) | No | Yes, every lead staged |
 
@@ -351,7 +350,7 @@ Restated so nothing slips. Every piece of copy, script, post, and page obeys the
 
 ## Section 13: The Next 30 Days (July 8 to August 6, 2026)
 
-Rule for the month, unchanged: mornings are for outreach, afternoons for estimates and dispatch. **Five outreach touches per day, minimum, no exceptions.** A touch is an email, a call, or a drop-off to a PM, referral source, or institution. New rule added: **one collections call per day until the AR is worked.**
+Rule for the month, unchanged: mornings are for outreach, afternoons for estimates and dispatch. **Five outreach touches per day, minimum, no exceptions.** A touch is an email, a call, or a drop-off to a PM, referral source, or institution.
 
 **Week 1 (July 8 to 14): Close the gates, sync the systems**
 - Day 1 (Jul 8): Insurance push call: bind commercial auto, workers comp recommendation in writing, additional-insured COI pricing answer, HVAC endorsement status. Baseline the Google review count. Check CDX/lead.paint@epa.gov for firm approval. Verify Brandon's #65489 at the Maryland public lookup (five minutes).
@@ -359,7 +358,7 @@ Rule for the month, unchanged: mornings are for outreach, afternoons for estimat
 - Day 3 (Jul 10): Brandon sit-down: finalize revenue share and per-permit numbers, sign the agreement. Then the Maryland HVACR Board call (structure question) same day while it is fresh.
 - Day 4 (Jul 11): Website ship day: the 21 ZIP corrections, Tally city-list fix, founding-date fix. Confirm old-domain 301s and Search Console on the new domain.
 - Day 5 (Jul 12): Build the pitch package PDF (intro letter, services list, PM pricing page, credential one-sheet, W-9, pm-portfolio link). EPA firm receipt stands in for the cert.
-- Days 6-7 (Jul 13-14): Finish the PM Marketing Pipeline sheet to one clean tiered row per firm, 20+ non-Jeeves targets (NARPM, Google Maps, MLS export). Sit with Jacob: reconfirm the Jeeves boundary and his exit trigger number in dollars per week. Write both down. First three collections calls on the AR.
+- Days 6-7 (Jul 13-14): Finish the PM Marketing Pipeline sheet to one clean tiered row per firm, 20+ non-Jeeves targets (NARPM, Google Maps, MLS export). Sit with Jacob: reconfirm the Jeeves boundary and his exit trigger number in dollars per week. Write both down.
 
 **Week 2 (July 15 to 21): Light the referral loops**
 - Day 8: Calls: ADRU registration, Caregiver Resource Center, Holy Cross OT. Ask each what they need to refer us; send it same day.
@@ -375,7 +374,7 @@ Rule for the month, unchanged: mornings are for outreach, afternoons for estimat
 - Day 17: Hand-deliver realtor one-pagers to 5 brokerages on route days.
 - Days 18-19: Phone follow-up on every Day 15 email; ask for the maintenance coordinator by name; book drop-offs.
 - Day 20: Month's MREIA or investor meeting if scheduled; otherwise 5 more PM touches.
-- Day 21: Weekly scorecard against Section 12A. Leads per day trending? Reviews landing? AR moving? Adjust.
+- Day 21: Weekly scorecard against Section 12A. Leads per day trending? Reviews landing? Adjust.
 
 **Week 4 (July 29 to August 6): Follow through and second wave**
 - Days 22-24: PM wave two: next 5 to 7 firms. Second follow-up to wave-one non-responders. Drop-offs where a name exists.
@@ -390,7 +389,7 @@ Rule for the month, unchanged: mornings are for outreach, afternoons for estimat
 |---|---|
 | 7:00-8:00 | Check amora0406 for Jeeves dispatches, map Jacob's open gaps, slot PR jobs into them. Review overnight leads (HCP, Tally, GHL, RingCentral log). |
 | 8:00-8:30 | Respond to every open lead. Internal standard: under one hour. Externally, never promise a callback time. |
-| 9:00-11:00 | The five outreach touches, plus one collections call. |
+| 9:00-11:00 | The five outreach touches. |
 | Midday | Estimates and closes. Run the Five Floors. Stage every lead in the HCP pipeline so close rate becomes a number. |
 | 4:00-5:00 | Dispatch tomorrow, deposits collected via HCP before scheduling, written confirmations same day (Floor 5, Ego Glue: cuts cancellations). |
 | Evening, 15 min | GBP photo post (Mon/Wed/Fri). One Nextdoor or FB group reply. Log the day's numbers. |
@@ -425,7 +424,7 @@ An honest source of truth says what it does not know. These are the holes, so no
 
 Every load-bearing fact above traces to one of these, audited July 7, 2026:
 
-- **Live Housecall Pro account**: company record, 208-service price book, pipeline stages, leads (zero open), jobs and estimates history, $16,795 outstanding balances, tags, event log.
+- **Live Housecall Pro account**: company record, 208-service price book, pipeline stages, leads (zero open), jobs and estimates history, $16,795 of open-invoice records (dead balances per Jay, July 7), tags, event log.
 - **Email accounts**: amora0406@gmail.com (Jeeves dispatch evidence, July 3 proposal), jay@thejaymora.com and propertyrenovatorshandyman@gmail.com (EPA, insurance, supplier, GBP threads), propertyrenovatorsmd@gmail.com (Angi termination), office@propertyrenovatorsgroup.com (CDX/EPA firm application R1152177, Workspace).
 - **Google Drive, personal**: BoA Financial Audit Report (CURRENT, July 1), PR LLC Financial Cleanup SOP (CURRENT, July 1), Operations Dashboard (RingCentral log through June 17), PR_GrabBar_Prompts_Final (June 24), Chris Thompson meeting notes (June 23 and weekly series), Brian Chaney portfolio folder (June 29), Court Evidence Packet (April 30).
 - **Google Drive, Workspace**: Montgomery and Frederick County PM Marketing Pipeline sheet (live copy; contents unreadable in this audit).
