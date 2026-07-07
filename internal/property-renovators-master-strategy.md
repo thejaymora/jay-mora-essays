@@ -1,10 +1,10 @@
 # PROPERTY RENOVATORS HOME SERVICES
 ## Master Growth Strategy and Source of Truth
 
-**Version 2.1. July 7, 2026.**
+**Version 2.2. July 7, 2026.**
 **Prepared for Jay Mora. Internal strategy document, not customer-facing.**
 
-This document supersedes the "Zero-Budget Attraction Marketing and $1M Execution Plan" (July 7, 2026 draft). Every fact in it was audited on July 7, 2026 against the live systems: Housecall Pro, all five email accounts, Google Drive (personal and Workspace), Netlify and the live website, the Google Calendar, Canva, Descript, and the 18-month Bank of America audit. Three verification passes were run, including a final adversarial pressure test that corrected several of this document's own earlier claims. Where a fact could not be verified, it says so plainly in Section 14 instead of pretending.
+This document supersedes the "Zero-Budget Attraction Marketing and $1M Execution Plan" (July 7, 2026 draft) and all earlier v2.x drafts. Every fact in it was audited on July 7, 2026 against the live systems: Housecall Pro, all five email accounts, Google Drive (personal and Workspace), Netlify and the live website, the Google Calendar, Canva, Descript, and the 18-month Bank of America audit. Three verification passes were run, including a final adversarial pressure test that corrected several of this document's own earlier claims. Where a fact could not be verified, it says so plainly in Section 14 instead of pretending. (v2.2: ownership confirmed 50/50; mjm-command-center confirmed locked down.)
 
 **Targets: $500,000 per year in handyman and home improvement. $500,000 per year in HVAC. Marketing spend: as close to zero as physics allows.**
 
