@@ -42,7 +42,7 @@ New facts the old plan did not know at all: the July 1 financial audit and clean
 
 ## Section 1: Who and What the Business Is
 
-**Legal entity:** Property Renovators, LLC. Owned 50/50 by Jay Mora and Jacob Mora. **There is no confirmed Operating Agreement.** That is a real risk for a 50/50 company (deadlock, buyout, succession) and it is on the cleanup list (Section 10).
+**Legal entity:** Property Renovators, LLC. **Ownership needs one authoritative answer, because the sources conflict.** The sworn April 30 court filing (Property Renovators LLC v. Matthew Audrey, Montgomery County District Court) states **Jacob Mora is 99% owner-operator and Jay Mora is 1% owner and the holder of the Maryland contractor license.** The July 1 internal financial SOP instead characterized it as a 50/50 LLC. A sworn court document is the stronger evidence, so treat 99/1 (Jacob/Jay) as the working truth until confirmed. Separately, **there is no confirmed Operating Agreement** — whatever the true split, that gap (deadlock, buyout, succession) is a real risk and is on the cleanup list (Section 10). Note the "40% revenue share" below is Jay's compensation, not an equity stake (see the structural story).
 
 **Brands:**
 - **Property Renovators Home Services**: the primary customer-facing brand.
@@ -63,7 +63,7 @@ New facts the old plan did not know at all: the July 1 financial audit and clean
 - **Insurance agency**: Pacheco and Associates. Monica Pacheco, with Nicole Prado and Tuma handling day-to-day. Carrier for GL: Frederick Mutual.
 - **Advisors**: Chris Thompson (realtor mentor, weekly 1:1, source of the MLS-to-PM-list play), Olu / REIUnlock (business systems, HCP API automation "PropScope", holds the 48-contact DC PM list under confidentiality).
 
-**The structural story of 2026:** Jay is taking over and scaling his father's trade business (the working deal on record is a 40% revenue share to Jay), moving Jacob toward a supervisory role, and stacking three revenue tracks on one license-and-reputation foundation: handyman, HVAC, and aging-in-place safety work. The coaching business was wound down in June 2026 to make room for this.
+**The structural story of 2026:** Jay is taking over and scaling his father's trade business. The compensation deal on record (June 12 REIUnlock recap) is **a 40% revenue share to Jay on the jobs Jay manages** — it is compensation for the work he runs, not 40% of all company revenue and not an equity stake (equity is the 99/1 question above). Jay is moving Jacob toward a supervisory role and stacking three revenue tracks on one license-and-reputation foundation: handyman, HVAC, and aging-in-place safety work. A concrete proof point of the model working: the first job Jay priced and sold under it was a $5,200 bathroom retrofit closed in 48 minutes, against Jacob's typical $3,200 pricing on similar work. The coaching business was wound down in June 2026 to make room for this.
 
 ---
 
@@ -82,7 +82,7 @@ This is the gate table. Everything customer-facing and every PM application depe
 | Workers compensation | **DOES NOT EXIST** | Open question with the agency since July 5. PM vendor applications commonly reject on this. Decision needed: buy a policy even if Jacob can be excluded as an owner, because PMs want to see it on the COI. |
 | Commercial auto | **QUOTED, NOT BOUND** | Progressive quotes received July 7 (state minimum, liability-only, with and without the sedan). Not bound. Jacob's work vehicle must move to commercial auto. |
 | Surety bond | **ACTIVE** | $30,000, Jet Insurance Company, bond #BX0022428 (via The Bond Exchange). |
-| Operating Agreement | **MISSING** | 50/50 LLC with no confirmed operating agreement. Cleanup SOP item. |
+| Operating Agreement | **MISSING** | No confirmed operating agreement. Ownership split itself is unresolved (sworn court filing says Jacob 99% / Jay 1%; internal SOP said 50/50). Resolve the split AND paper the agreement. Cleanup SOP item. |
 | Age-in-Place certification | **NOT DONE** | Promised "next week" on June 26. No evidence it happened. Needed for the Section 9 track. |
 
 **The compliance rule that governs everything:** no HVAC work is marketed, quoted, or performed until Section 8's gates are documented. No firm-level lead-safe claims until EPA approval lands. Gas work stays categorically off-limits until WSSC scope is confirmed in writing.
@@ -97,7 +97,7 @@ An 18-month Bank of America audit (January 2, 2025 through June 29, 2026, 2,585 
 - 18-month totals: $200,391.77 in, $194,167.93 out. Net retention over 18 months: about $6,224, roughly 3%. The business works hard and keeps almost nothing. Pricing discipline (Section 5) and PM volume (Section 7) are the fix.
 - Trend is improving: 9 of 18 months were cash-flow negative, worst was July 2025 (minus $5,235), but **June 2026 was the best month on record (plus $7,687)**. Overdraft fees (44 of them, $440) clustered in early 2025 and have nearly stopped.
 - Cash position: statement ending balance $8,573.96 on June 29. Live BoA alert showed $1,557.97 on July 7, down from $2,497.08 on July 4 (the EPA $300, MD SDAT charges, and normal spend). Cash is thin. The Verizon business account went past-due on July 7. The SOP's reserve floor target is $10K to $22K.
-- **$16,795.00 shows as open invoices in HCP** across 7 records (largest: #45 at $6,990, #150 at $4,200, #174 at $2,300). **This is NOT collectible money. Jay's call, July 7: these are dead balances.** The task is bookkeeping, not collections: write them off (or mark them uncollectible) in HCP so the receivables reports stop showing phantom money, and so nothing downstream (loan applications, planning, underwriting) counts it as an asset.
+- **$16,795.00 shows as open invoices in HCP** across 7 records. **This is NOT collectible money. Jay's call, July 7: these are dead balances.** The audit confirms why, invoice by invoice: **#208, $1,800 (Matthew Audrey) is in active small-claims litigation** — two reversed payments and a bounced third-party check, the company has collected $0.00, and the April 30 Court Evidence Packet is this case. **#150, $4,200 (Melvin Stanish) is an invoice against work never performed** (the job is still "needs scheduling") — a void candidate, not a receivable. **#45, $6,990 (Divina Francisco) belongs to an ACTIVE customer** with ~$6.4K of open April 2026 estimates — chasing it would torch live pipeline. The rest (#174, #101, #202, #187) are 2+-year-old dead paper. The task is bookkeeping, not collections: write these off or mark them uncollectible in HCP so receivables reports stop showing phantom money and nothing downstream (loan applications, planning, underwriting) counts it as an asset. Leave the Audrey case to run its legal course separately.
 - $124,781.60 of deposits (62% of all inflow) are unidentified-source and need reconciling against HCP payments. Until that is done, true PR-brand revenue vs Jeeves pass-through vs personal deposits cannot be separated.
 - No federal quarterly estimated taxes have ever been paid. H&R Block is engaged ($1,075 paid). This is a Section 10 priority, not optional.
 - The LLC account is commingled with personal spending (veil-piercing risk), there are 215 informal Zelle transfers with Jacob to reclassify as member distributions (net +$28,300.74 from Jacob), and QuickBooks is paid for ($22/month) but unused.
@@ -129,13 +129,15 @@ An 18-month Bank of America audit (January 2, 2025 through June 29, 2026, 2,585 
 **Real volume (the honest baseline):**
 - PR-branded completed jobs run **roughly 1 to 3 per month** in 2026. Recent real work: Dolan screen door $420 (June 28), Howard smoke detectors $420 and $480 (June), Nappo tall toilet $1,740 and grab bars $264 (June), Das siding/waterproofing $665 to $950 (June, with a negotiated 4-year leak warranty as a one-off), Hopkins faucet/valve jobs $350 to $780 (April/May), Yansaneh front door $1,025, Saclouse drain work $1,500 (March).
 - Median real ticket lands around $420 to $480; the mean is pulled up to about $630 by the occasional $1,000 to $1,800 job. The old plan's $450 to $550 average-ticket assumption is roughly right.
-- **Zero jobs are scheduled for the next two weeks. Zero open leads in the pipeline. Lead flow is about 1 to 3 genuine inquiries per week** (websites forms, calls, repeat customers), not the 1 per day the old plan assumed.
+- **Zero jobs are scheduled for the next two weeks. Zero open leads in the pipeline. Lead flow is about 1 to 3 genuine inquiries per week** (website forms, calls, repeat customers), not the 1 per day the old plan assumed.
+- **There is no real dispatch system.** Neither HCP nor Google Calendar holds job scheduling (the calendar is coaching and strategy calls). Jobs are booked informally by phone and text. That is fine at 1 to 3 jobs a month, but it breaks the moment lead flow climbs. Part of the build is making HCP the actual schedule, not just the invoice tool.
 - Close rate: **untracked.** The 13-stage pipeline exists in HCP but has never been used. The small recent sample (Dolan, Howard, Nappo converted; Grosser open) is consistent with a strong close rate, but the 60% claim is a belief, not a measurement, until the pipeline gets used.
 
 **Data hygiene to purge (one sitting, with Jacob's confirmation per the standing rule):**
-- Test junk: lead source "API-TEST-DELETE-ME-123"; tags "TEST - DELETE ME", "TEST - DO NOT USE", "Form pipeline test 2026-07-05"; test estimates ("WEBHOOK PRESSURE TEST", "APITEST DELETE", "Claude TestDummy", "Maria TestPipeline"); ~8 one-dollar test jobs.
+- Test junk: lead source "API-TEST-DELETE-ME-123"; tags "TEST - DELETE ME", "TEST - DO NOT USE", "Form pipeline test 2026-07-05"; test estimates ("WEBHOOK PRESSURE TEST", "APITEST DELETE", "Claude TestDummy", "Maria TestPipeline"); the $1.00 "TEST JOB - notification safety check" jobs logged against Jay, Jacob, and Marilu Mora.
 - 38 stale "in progress" and "scheduled" jobs dated 2019 to 2023 that were never closed out.
-- 107 "needs scheduling" records that are mostly $0 Jeeves-import history, not a real backlog. Tag them historical so the schedule view means something.
+- The July 2026 bulk import of PM-tagged historical jobs (#239 to #261: Keyrenter DC, Squire DC, Chatel, Citylights, Home River Group, Metro Home Management, MoCo Reconnect, plus "Direct Customer (No PM)" rows), most at $0. Tag them historical so the schedule view means something.
+- **Reporting warning that matters more than the cleanup:** the HCP webhook event log is 100% synthetic test data (all from a June 21 pressure test), and the live account now mixes real history, imported PM history, and test pollution. Any revenue, lead, or pipeline number pulled straight from HCP is wrong until these are filtered. Do not quote raw HCP metrics to a lender, PM, or partner.
 
 **Warranty language:** the working standard is a **1-year workmanship guarantee** (Jacob's own line to customers). Keep the $0.00 workmanship-guarantee line item on every estimate and invoice so it is visible in writing. Extended warranties (like the Das 4-year leak warranty) are negotiation tools, not standards.
 
@@ -239,7 +241,7 @@ One boutique PM firm at 50 to 150 doors sends 5 to 20 work orders per month, for
 **Then the wave (unchanged mechanics, current tooling):**
 - Finish the **PM Marketing Pipeline sheet** (Workspace Drive) as the single tracker: one row per firm, tiered, boutique SFR firms first, every touch logged.
 - Wave one: email 5 to 7 non-Jeeves boutique firms with the pitch PDF and pre-addressed COI. Phone follow-up day 4, ask for the maintenance coordinator by name. Physical drop-off where a name is established. Third touch by email. Then move on.
-- **The pitch package PDF** (intro letter, services list, PM pricing page, credential one-sheet, W-9) still needs assembling; the PM PACKAGES pricing already exists in HCP (turnover assessment $240, full-day turnover $960, pre-lease inspection $120) and the pm-portfolio page is now live to link.
+- **The pitch package PDF** (intro letter, services list, PM pricing page, credential one-sheet, W-9) still needs assembling; the PM PACKAGES pricing already exists in HCP (turnover assessment $240, full-day turnover $960, pre-lease inspection $120) and the pm-portfolio page is now live to link. Brand assets to build ON already exist in Canva (logo, banner, OG images, LinkedIn cover, testimonial one-pagers), but **the PM pitch deck, the realtor one-pager, and the review-QR card do not exist yet** and must be created before their respective outreach waves.
 - Offer to start as the **overflow and emergency vendor**: lowest-friction door in, and the $300 emergency fee plus responsiveness is exactly what overflow vendors get judged on.
 - First test work order protocol, unchanged: written tenant notice, before/after photos, authorized scope only, invoice within 24 hours, proactive summary email to the PM. The first work order is the entire audition.
 - Parallel lane: HOA management companies and Leisure World mutuals via WMCCAI directory registration, same package, HOA-flavored letter.
@@ -297,7 +299,7 @@ This track was only a sketch in the old plan. It is now a defined build (the "PR
 The SOP exists, is current, and as of July 7 is essentially unstarted. The strategy document owns it because every growth gate above depends on some piece of it. The compressed sequence:
 
 1. **This month (blocking growth):** bind commercial auto; resolve workers comp in writing; formalize everyone paid for labor (Jacob classification, Marilu W-2/1099, outside Zelle helpers: Mendieta, Garcia, Gallardo et al.); start HCP-to-bank reconciliation of the $124,781.60 unidentified deposits; write off the $16,795 of dead open invoices in HCP (not collectible, per Jay) so receivables reporting is truthful.
-2. **Next 60 days:** operating agreement drafted and signed (50/50 deadlock, buyout, succession terms); reclassify the 215 Zelle transfers as member distributions; separate personal spend from the LLC account; begin federal quarterly estimated payments (H&R Block is engaged); stand up QuickBooks categorization (already paid for).
+2. **Next 60 days:** resolve the ownership split (sworn court filing 99/1 vs SOP 50/50) and get the operating agreement drafted and signed (deadlock, buyout, succession terms); reclassify the 215 Zelle transfers as member distributions; separate personal spend from the LLC account; begin federal quarterly estimated payments (H&R Block is engaged); stand up QuickBooks categorization (already paid for).
 3. **Housekeeping:** Portfolio Recovery paid-in-full letter ($979.72); $927 SDAT triple-charge refund; $1,800 returned-check chargeback resolution; identify the 19 unknown checks ($18,576.98), 11 cash withdrawals ($16,500), and the Codefied Inc. payments ($14,410.84); delete the junk audit files in Drive; build to the $10K to $22K reserve floor.
 
 ---
@@ -412,11 +414,17 @@ An honest source of truth says what it does not know. These are the holes, so no
 9. **Court Evidence Packet** (April 30, 4 copies in Drive): a compiled evidence packet for a court matter. No document after April references it. Status of the matter unknown; carry it as a contingent liability question, not a strategy item.
 10. **Website page count**: "1,240 pages" is plausible (1,955 files deployed) but was never exactly verified.
 11. **Founding date**: 2016 (site) vs 1994 (directory) vs "20 years in the trades" (story). Pick the truthful line and enforce it everywhere.
-12. **mjm-business-command-center**: a separate Netlify project deployed minutes after this audit ran. Whatever it is, it is not documented here; fold it into the next revision.
-13. **The GL policy limits** ($1M/$2M, #BP22010282): get the agency's written confirmation before they go on any PM application (Section 2).
-14. **The fact-check corrections list** (the 21 ZIP/neighborhood fixes): referenced by the old plan, not found in any current source. Locate or regenerate.
-15. **Networx**: paused, resuming leads July 5. Angi was terminated on purpose; Networx was not. Make the call deliberately instead of letting it resume by default.
-16. **Old-domain redirects**: whether propertyrenovatorshandyman.com 301-redirects to the new domain could not be checked from this environment. Verify in a browser; Jacob's email signature still points at the old domain either way and should be updated.
+12. **mjm-business-command-center**: this is Jay's own internal dashboard app (MJM = MJM Holding Solutions LLC, Jay's entity; successor to an April Firebase "jaymora-command-center" project), deployed July 7 on the Mora Signature Consulting Netlify team. **Security note: it is publicly reachable with no password. If it displays any financials or customer data, lock it behind auth now.**
+13. **Court case status**: Property Renovators LLC v. Matthew Audrey (small claims, $1,800) was prepared/filed as of the April 30 packet; no hearing date or judgment was found in email. Confirm where it stands.
+14. **YouTube channel**: unconfirmed. The vidIQ tools were blocked in this audit, and HCP lists a "YouTube" lead source. Verify whether a business channel exists and whether it produces any leads.
+15. **propertyrenovators.com is available to register** (the exact-match domain). Cheap defensive/brand buy worth considering while the brand migrates.
+16. **Content pipeline**: 33 Descript projects exist (job recordings, PM/pricing sessions, call-flow edits, drone footage) but nothing looks published. Raw material for the portfolio and GBP is sitting there unused.
+17. **The GL policy limits** ($1M/$2M, #BP22010282): get the agency's written confirmation before they go on any PM application (Section 2).
+18. **The fact-check corrections list** (the 21 ZIP/neighborhood fixes): referenced by the old plan, not found in any current source. Locate or regenerate.
+19. **Networx**: paused, resuming leads July 5. Angi was terminated on purpose; Networx was not. Make the call deliberately instead of letting it resume by default.
+20. **Old-domain redirects**: whether propertyrenovatorshandyman.com 301-redirects to the new domain could not be checked from this environment. Verify in a browser; Jacob's email signature still points at the old domain either way and should be updated.
+21. **Ownership split**: sworn court filing says Jacob 99% / Jay 1%; the internal SOP said 50/50. This must be reconciled before the operating agreement is drafted (Section 1, Section 10).
+22. **Recurring cost churn to watch**: the Netlify team ran out of credits July 7 (suspended, then re-enabled after a $20.61 top-up) and has cycled Free to Pro to top-ups since May; the Google Workspace trial billing started July 4; Jacob's Verizon business line is past due. None are strategic, but on ~$1.5K of cash they are real.
 
 ---
 
