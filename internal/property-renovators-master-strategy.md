@@ -25,16 +25,16 @@ The old plan was written as if the machine was half-built. The audit shows some 
 | Jacob may be near a Jeeves exit | **Jacob is fully active with Jeeves.** He sent Jeeves a $12,600 proposal on July 3. No resignation, no exit trigger fired. The exit trigger stands (Section 12). |
 | HVAC gates all unverified | **Major movement the week of June 30 to July 7:** EPA 608 Universal cert in hand (Jay), Brandon's Master HVACR license #65489 on record with suppliers, six supplier accounts opened or in motion. But the Brandon agreement is still unsigned and the Maryland HVACR Board and WSSC have not been contacted. Gates are NOT cleared. |
 | EPA Lead-Safe Certified Firm: "file it Day 1" | **Filed and paid.** Application R1152177 signed, $300 paid July 6. Individual RRP Renovator cert delivered July 6. Firm approval NOT yet received, so firm status cannot be advertised yet. |
-| GL insurance $1M/$2M in place | **Confirmed:** Policy #BP22010282, Frederick Mutual, $1M/$2M, via Pacheco and Associates. But workers comp does NOT exist, commercial auto was only QUOTED on July 7 (Progressive, not bound), and the additional-insured plus HVAC endorsement pricing is still pending with the carrier. |
+| GL insurance $1M/$2M in place | **Mostly confirmed, one catch:** the carrier (Frederick Mutual) and an active GL policy are confirmed by the agency. But the $1M/$2M limits and Policy #BP22010282 appear only in Jay's own July 5 email ("I believe our GL is confirmed at..."), with no written agency confirmation yet. Workers comp does NOT exist, commercial auto was only QUOTED on July 7 (not bound), and additional-insured plus HVAC endorsement pricing is still pending. |
 | Website: no portfolio page, no PM page | **The PM portfolio page went live TODAY** (deployed 5:07 PM ET, July 7) at propertyrenovatorshomeservices.com/pm-portfolio with 17 new assets. |
 | Website: 21 ZIP corrections pending | **Still pending.** Today's deploy shipped only the portfolio page. |
 | Old domain propertyrenovatorshandyman.com | **New primary domain is propertyrenovatorshomeservices.com** (Search Console live July 4). Google's index still mostly points at the old domain and old brand name. SEO migration is mid-flight and needs finishing. |
-| Angi as a lead source | **Killed on purpose.** Complete termination of all Angi programs requested July 6. |
+| Angi as a lead source | **Killed on purpose.** Complete termination of all Angi programs requested July 6 (no confirmation from Angi yet). But note: **Networx was only paused, and its Direct Calls plan resumes leads July 5.** Decide deliberately: keep it or kill it. |
 | PM outreach starting | **Not started.** Still in prep. The PM Marketing Pipeline sheet (Montgomery and Frederick counties) exists in the Workspace Drive. Zero pitches sent, zero accounts landed, zero test work orders. |
 | Referral loops (hospital OTs, ADRU, Leisure World, realtors) activating | **Zero execution.** All still at the planning stage. Targets and phone numbers are ready (Section 6, Engine 3). |
 | GBP migration pending | **In progress.** propertyrenovatorshandyman@gmail.com was granted MANAGER access to the "Property Renovators Home Services" profile at 1:43 AM on July 7. Ownership transfer is not final. |
 | Jeeves database: 1,567 records, 825 residential | **Unverified numbers.** The verifiable version, from the June 23 planning call: roughly 4,200 properties serviced over 4 years, 40+ property management companies, all through Jeeves as the middleman. Treat 1,567/825 as unconfirmed until the workbook is located. |
-| Coaching business competing for Jay's time | **Wound down June 2026.** On the back burner. Jay's time is the business now. |
+| Coaching business competing for Jay's time | **On the back burner** ("Still there. It hasn't gone away," June 23). No coaching clients or coaching revenue in the last 30 days, but the infrastructure still runs (Netlify Pro, $21.20/month, credits burning). Jay's time is the trades business now. |
 
 New facts the old plan did not know at all: the July 1 financial audit and cleanup SOP (Section 3 and Section 10), the new Google Workspace and office@propertyrenovatorsgroup.com ops address (created July 4), the Property Renovators Heating and Cooling entity filings, Jay's personal MHIC salesman license (approved July 1), the aging-in-place Medicaid billing track (Section 9), $16,795 in uncollected invoices sitting in HCP, and heavy test-data pollution in HCP that needs purging.
 
@@ -56,9 +56,9 @@ New facts the old plan did not know at all: the July 1 financial audit and clean
 - Website: **propertyrenovatorshomeservices.com** (primary as of July 4). Legacy: propertyrenovatorshandyman.com.
 
 **People:**
-- **Jay Mora**: sales, dispatch, operations, marketing. Runs the Five-Floor sales framework. MHIC contractor/salesman license 01-112963 (approved July 1, 2026, expires 01/24/2027). EPA RRP Lead Renovator certified (July 6). EPA Section 608 Universal certified, #1062502527420 (July 2).
+- **Jay Mora**: sales, dispatch, operations, marketing. Runs the Five-Floor sales framework (his own published system, "The Invisible Elevator"). MHIC contractor/salesman license, registration 112963, license type 01 (approved July 1, 2026, expires 01/24/2027). EPA RRP Lead Renovator certified (certificate in hand July 7). EPA Section 608 Universal certified, #1062502527420 (July 2).
 - **Jacob Mora**: father, lead technician, 20 years in the trades, 1,000+ grab bars installed. Still taking Jeeves dispatches (see Engine 1). No employee record in HCP yet, which needs fixing when payroll formalizes.
-- **Brandon Viernes**: Master HVACR license holder, license #65489. Relationship is a proposed license arrangement, NOT a partnership: PR stays 100% owned, Brandon holds the license on file and assists with permit pulls, compensation is a monthly revenue share plus a flat per-permit fee. **The agreement is a proposal only. Nothing is signed.** (Section 8, Gate 1.)
+- **Brandon Viernes** (240-994-6549): Master HVACR license holder, license #65489. Relationship is a proposed license arrangement, NOT a partnership: PR stays 100% owned and funds 100%, Brandon holds the license on file and assists with permit pulls, fully invisible to the customer. Proposed compensation is a monthly revenue share plus a flat per-permit fee, **with no percentage and no dollar figure set anywhere. The agreement is a proposal only, nothing is signed, and there is no direct correspondence with Brandon on record in any account.** (Section 8, Gate 1.)
 - **Marilu Mora**: paid $2,000 as "Work in Company", needs W-2 or 1099 formalization (Section 10).
 - **Insurance agency**: Pacheco and Associates. Monica Pacheco, with Nicole Prado and Tuma handling day-to-day. Carrier for GL: Frederick Mutual.
 - **Advisors**: Chris Thompson (realtor mentor, weekly 1:1, source of the MLS-to-PM-list play), Olu / REIUnlock (business systems, HCP API automation "PropScope", holds the 48-contact DC PM list under confidentiality).
@@ -73,13 +73,12 @@ This is the gate table. Everything customer-facing and every PM application depe
 
 | Item | Status | Detail |
 |---|---|---|
-| MHIC license (company) | **ACTIVE** | #112963, Property Renovators LLC. |
-| MHIC salesman license (Jay) | **ACTIVE, NEW** | 01-112963, approved July 1, 2026, expires 01/24/2027. Jay can now personally sell under the company license. |
-| EPA RRP Lead Renovator (individual) | **IN HAND** | Jay took the initial class July 3 (PA Safety, Frederick), passed, certificate delivered July 6. |
+| MHIC license | **ACTIVE** | Registration 112963, license type 01 (CONTRACTOR/SALESMAN), approved for JAY MORA July 1, 2026, expires 01/24/2027. The business materials cite "MHIC #112963" for Property Renovators LLC; the state record in evidence shows one registration number, not two separate licenses. Confirm the exact company-vs-individual licensing structure with MHIC and use one consistent citation everywhere. |
+| EPA RRP Lead Renovator (individual) | **IN HAND** | Jay took the initial class July 3 (PA Safety, Frederick), passed. Certificate emailed July 6, confirmed received July 7. |
 | EPA Lead-Safe Certified FIRM | **PENDING, NOT APPROVED** | Application R1152177 signed via CDX, $300 paid July 6. Watch for the approval email from lead.paint@epa.gov. Until it lands, do NOT advertise firm certification. The application receipt stands in on PM paperwork. |
 | EPA Section 608 (refrigerant) | **IN HAND** | Jay holds UNIVERSAL certification, #1062502527420 (ESCO Institute, July 2). Anyone else who touches refrigerant needs their own. |
 | Master HVACR license | **ON RECORD, NOT SECURED** | Brandon Viernes, license #65489. Already on file with Ferguson and other suppliers. But: no signed agreement, no Maryland HVACR Board confirmation of the contracting structure, no WSSC gasfitter scope confirmation. HVAC cannot be sold until Section 8 gates clear. |
-| General liability | **ACTIVE** | $1M/$2M per occurrence, Policy #BP22010282, Frederick Mutual, via Pacheco and Associates. Additional-insured and HVAC-coverage pricing requested, answer pending as of July 6. |
+| General liability | **ACTIVE, LIMITS UNCONFIRMED IN WRITING** | Carrier confirmed by the agency: Frederick Mutual, active GL policy. The $1M/$2M limits and Policy #BP22010282 are Jay's own stated belief (July 5 email) awaiting written agency confirmation. Get it in writing before it goes on any PM application. Additional-insured and HVAC-coverage pricing requested, answer pending as of July 6. Agency: Pacheco and Associates (Tuma Pacheco, Nicole Prado; Monica Pacheco cc). |
 | Workers compensation | **DOES NOT EXIST** | Open question with the agency since July 5. PM vendor applications commonly reject on this. Decision needed: buy a policy even if Jacob can be excluded as an owner, because PMs want to see it on the COI. |
 | Commercial auto | **QUOTED, NOT BOUND** | Progressive quotes received July 7 (state minimum, liability-only, with and without the sedan). Not bound. Jacob's work vehicle must move to commercial auto. |
 | Surety bond | **ACTIVE** | $30,000, Jet Insurance Company, bond #BX0022428 (via The Bond Exchange). |
@@ -180,7 +179,7 @@ The realistic first-12-months number once gates clear remains **$150K to $300K**
 
 So the database splits into two uses:
 
-**Safe now, full throttle:** use the Jeeves history as intelligence and proof. About 4,200 properties serviced over 4 years, 40+ PM companies (names on record: Noah, Clagett, PMP, Squire, Calhorn, plus the recurring set: Globe Trotter, Home Services PM, Flat Fee Landlord, BMG Laurel, Keyrenter DC, All County NOVA, Dorvie Concierge, BMG, Squire DC, Bay PM, Simply Love PM). Photos, scopes, ticket sizes, and turnaround stories feed the portfolio page (first version went LIVE today), the GBP posts, and every PM pitch. No solicitation involved. The 48-contact DC PM list stays confidential (Olu holds it under that exact condition).
+**Safe now, full throttle:** use the Jeeves history as intelligence and proof. About 4,200 properties serviced over 4 years, 40+ PM companies (names on record: Noah, Clagett, PMP, Squire, Calhorn, plus the recurring set: Globe Trotter, Home Services PM, Flat Fee Landlord, BMG Laurel, Keyrenter DC, All County NOVA, Dorvie Concierge, BMG, Squire DC, Bay PM, Simply Love PM). Photos, scopes, ticket sizes, and turnaround stories feed the portfolio page (first version went LIVE today), the GBP posts, and every PM pitch. No solicitation involved. The DC PM contact list shared with Olu stays confidential (that was the explicit condition of sharing it; the "48 contacts" figure comes from a June 26 session recap and is otherwise unverified).
 
 **Held until the trigger:** direct outreach to Jeeves-sourced customers and Jeeves PMs activates the day Jacob resigns, or earlier ONLY if his Jeeves paperwork is reviewed and confirms no non-solicit and you both accept the employment risk. The day he is out, the reactivation letter and email campaign fires to every household he personally served.
 
@@ -219,10 +218,10 @@ Status: **no business page exists yet.** The play is unchanged: create the free 
 
 Status: the site is live at the NEW domain (propertyrenovatorshomeservices.com), roughly 1,955 files, deep programmatic structure (/services/{service}/{city}, /locations/{city}, /zip/{zip}), 53 redirects, and as of TODAY a live PM portfolio page (/pm-portfolio) with 17 assets. Copy is compliant with the standing rules (no speed claims found). Remaining work, in order:
 
-1. **Ship the 21 numbered ZIP and neighborhood corrections** from the fact-check audit. They were NOT in today's deploy. Wrong local facts burn trust with the exact reader you want.
+1. **Ship the 21 numbered ZIP and neighborhood corrections** from the fact-check audit. They were NOT in today's deploy. One catch: the corrections list itself was not found in any current file or mailbox during this audit. Locate it, or re-run the fact-check and regenerate it, then ship. Wrong local facts burn trust with the exact reader you want.
 2. **Finish the domain and brand migration:** Google's index still shows propertyrenovatorshandyman.com and the old brand. Confirm 301 redirects from every old URL, update Search Console, and update the GBP website link.
 3. **Add the PM and HOA vendor page** (distinct from the portfolio): MHIC number, EPA RRP certification (firm status once approved), before/after documentation workflow, COI capability, net-30 terms. No rates on the page. PMs check the website second, right after Google.
-4. **Fix the Tally form city list** to all 16 MoCo cities so lead intake stops leaking (status unverified; verify and fix Day 1).
+4. **Fix the Tally form city list** to all 16 MoCo cities so lead intake stops leaking. The form is confirmed live and producing real leads (Baskir and Grosser in late June came through it) and it asks "What city are you in?", but the city list itself could not be inspected from outside. Verify and fix Day 1.
 5. **Grow the portfolio page** with the Brian Chaney / Modern CB Design remodeling assets (already in Drive) and new HCP job photos, organized by service category.
 6. **Fix the founding-date inconsistency** (see Engine 2) and add Saturday hours language if the indexed "Mon-Fri and Sunday" hours are wrong.
 7. Once Section 8 gates clear: **HVAC service pages** under the Home Services umbrella. City-plus-service pages for AC repair and heat pump replacement are low competition compared to handyman terms.
@@ -257,7 +256,7 @@ One boutique PM firm at 50 to 150 doors sends 5 to 20 work orders per month, for
 
 | Gate | Status | Next action |
 |---|---|---|
-| 1. Brandon agreement in writing | **NOT DONE.** The July 2 business plan is explicitly "not a binding agreement." Terms proposed: license arrangement (not partnership), PR 100% owned, Brandon holds license on file and assists permit pulls, comp = monthly revenue share + flat per-permit fee. | Finalize numbers, put signatures on it. Nothing else matters until this is signed. |
+| 1. Brandon agreement in writing | **NOT DONE.** The July 2 business plan is explicitly "not a binding agreement," and the compensation section is literally headed "STRUCTURE TO BE FINALIZED BETWEEN THE PARTIES": a revenue-share percentage and a per-permit flat fee with NO numbers set. There is no direct email correspondence with Brandon on record at all. | Sit down with Brandon, set the percentage and the permit fee, put signatures on it. Nothing else matters until this is signed. |
 | 2. License verification and structure | **NOT DONE.** License #65489 is on supplier accounts, but there is no record of verifying it at labor.maryland.gov or confirming with the Maryland HVACR Board how Property Renovators Heating and Cooling lawfully contracts under Brandon's license (qualifying individual vs employee vs other). | Five-minute public lookup, then one call to the Board. Get the answer in writing. |
 | 3. Insurance at Master tier | **PENDING.** HVAC coverage pricing requested from Frederick Mutual July 6, answer pending. Master-tier requirement: $300K liability / $100K property damage or $400K combined. | Push the agency; bind the endorsement. |
 | 4. EPA 608 | **PARTIAL.** Jay holds Universal (#1062502527420). Brandon's own 608 status unconfirmed; any helper touching refrigerant needs their own. | Confirm Brandon's cert; plan helper certification. |
@@ -415,6 +414,10 @@ An honest source of truth says what it does not know. These are the holes, so no
 10. **Website page count**: "1,240 pages" is plausible (1,955 files deployed) but was never exactly verified.
 11. **Founding date**: 2016 (site) vs 1994 (directory) vs "20 years in the trades" (story). Pick the truthful line and enforce it everywhere.
 12. **mjm-business-command-center**: a separate Netlify project deployed minutes after this audit ran. Whatever it is, it is not documented here; fold it into the next revision.
+13. **The GL policy limits** ($1M/$2M, #BP22010282): get the agency's written confirmation before they go on any PM application (Section 2).
+14. **The fact-check corrections list** (the 21 ZIP/neighborhood fixes): referenced by the old plan, not found in any current source. Locate or regenerate.
+15. **Networx**: paused, resuming leads July 5. Angi was terminated on purpose; Networx was not. Make the call deliberately instead of letting it resume by default.
+16. **Old-domain redirects**: whether propertyrenovatorshandyman.com 301-redirects to the new domain could not be checked from this environment. Verify in a browser; Jacob's email signature still points at the old domain either way and should be updated.
 
 ---
 
