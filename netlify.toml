@@ -7,6 +7,13 @@
   status = 301
   force = true
 
+# Internal documents are never served publicly
+[[redirects]]
+  from = "/internal/*"
+  to = "/"
+  status = 404
+  force = true
+
 # Cache static assets aggressively
 [[headers]]
   for = "/*.html"
