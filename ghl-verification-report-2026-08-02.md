@@ -6,6 +6,14 @@
 
 **Environment limitation (affects items 1–3, 7):** this session's network policy blocks direct HTTPS to `link.fastpaydirect.com` and `email.mail.propertyrenovatorshomeservices.com` (proxy returns 403 CONNECT). I could not load estimate pages in a browser or run a TLS handshake. Where page rendering mattered, I relied on server-side evidence (GHL's own `lastVisitedAt` view tracking, acceptance notification emails) and I list the exact remaining clicks for Jay at the end — about 3 minutes of work.
 
+> **Update, Aug 3 — browser automation attempted and ruled out.** Per Jay's request I installed Playwright and launched the bundled Chromium directly against the estimate URLs. The browser starts fine; the network is the wall:
+> - `https://link.fastpaydirect.com/l/ZChj2CmUq` → **`net::ERR_TUNNEL_CONNECTION_FAILED`** (egress gateway refuses the CONNECT before any TLS occurs)
+> - `https://api.github.com` (allowed host) → tunnel **opens** and fails later at cert validation
+>
+> Two different failure classes prove this is an egress-policy denial on the host, not a browser or proxy misconfiguration. `www.google.com` is blocked too, so the allowlist is essentially GitHub/Anthropic only. Per the environment's proxy documentation, policy denials must be reported, not routed around. **Loading or accepting an estimate page cannot be done from this session by any tool.**
+>
+> **Also confirmed: there is no API path to acceptance.** `POST /invoices/estimate/{id}/invoice` ("Create Invoice from Estimate") exists, but calling it on an unaccepted estimate returns **HTTP 400 `estimate_not_accepted`** — *"Estimate is not accepted"*. GHL hard-gates deposit-invoice generation behind a real customer acceptance on the page. The Accept click must come from a human; once it happens, I can verify everything else server-side in seconds.
+
 ---
 
 ## Scorecard
@@ -57,6 +65,9 @@ The math this enables on $1,720:
 | **33.3333** | **$573.33 — true 1/3 to the cent** |
 
 **Recommendation: use `33.3333` on every deposit estimate going forward.** This solves the exact discrepancy Jay hit on the Housecall Pro estimate, with no dependency on Olu.
+
+**Estimate #33 now exists to settle this exactly.** On Aug 3 I created and sent a **$1,720** estimate with `schedules: [33.3333, 66.6667]` — the real job total, at true-1/3 precision. Accepting it will make GHL compute the deposit itself, so we learn whether the invoice lands on **$573.33** (correct) or something like $573.28/$567.60 (rounding loss). This is the test the handoff asked for and the $3/$900 estimates can't provide, since rounding differences are invisible at those amounts.
+→ https://link.fastpaydirect.com/l/zwLnnHLnx
 
 **Not yet confirmed:** that the auto-generated deposit *invoice* computes the amount correctly on acceptance. There is no public API to accept an estimate (acceptance is customer-side on the page), so this needs Jay to click **Accept on #29** ($3, 33% → expected $0.99 deposit invoice). Worth knowing: **no auto-generated invoice has ever appeared in this account** — the invoice list contains only 3 invoices, all manually created. Estimate #24's acceptance at 20:26 left no invoice behind, but #24 was deleted, so that's inconclusive rather than damning. The accept-#29 test is the real check.
 
@@ -118,12 +129,19 @@ Unknown and unrecoverable: whether the contact had **tags** before the overwrite
 
 ## What Jay does next (~3 minutes)
 
-1. Click **#29** (https://link.fastpaydirect.com/l/ZChj2CmUq) — confirm it renders, check the logo/branding, then **Accept** it → then check whether a **$0.99 deposit invoice** auto-generates and arrives (this proves items 2 and the auto-invoice mechanism in one shot).
-2. Click **#30** (https://link.fastpaydirect.com/l/HyN-L6UUS) → **Accept** → confirm it asks for the **full $2.00**, no deposit split (proves item 3).
-3. Click **#32** (https://link.fastpaydirect.com/l/9e2tc3QbI) — confirm the **logo is the correct teal/orange one** and the catalog line item displays (closes out item 4's visual check and item 1's product-based variant).
-4. During any of those clicks: if a **certificate warning** appears before the page loads, item 7 is still broken — screenshot it for Olu.
-5. Glance at your own contact record — `source` is restored to "Send Us Your Photos"; re-add any tags you remember it having.
-6. Delete #29/#30/#32 and invoice INV-000002 when done (or ask me to — it's one API call each now that delete works).
+**No login required.** These are public tokenized estimate links — the same URLs a customer receives. Open them on a phone or in any browser; there is no GHL or email sign-in involved.
+
+1. Click **#33** (https://link.fastpaydirect.com/l/zwLnnHLnx) — the **$1,720** one — and **Accept**. This is the highest-value click: it settles the exact-deposit-math question. Expected deposit invoice: **$573.33**.
+2. Click **#29** (https://link.fastpaydirect.com/l/ZChj2CmUq) — confirm it renders, check the logo/branding, then **Accept** it → check whether a **$0.99 deposit invoice** auto-generates and arrives (proves the auto-invoice mechanism).
+3. Click **#30** (https://link.fastpaydirect.com/l/HyN-L6UUS) → **Accept** → confirm it asks for the **full $2.00**, no deposit split (proves item 3).
+4. Click **#32** (https://link.fastpaydirect.com/l/9e2tc3QbI) — confirm the **logo is the correct teal/orange one** and the catalog line item displays (closes out item 4's visual check and item 1's product-based variant).
+5. During any of those clicks: if a **certificate warning** appears before the page loads, item 7 is still broken — screenshot it for Olu.
+6. Glance at your own contact record — `source` is restored to "Send Us Your Photos"; re-add any tags you remember it having.
+7. Delete #29/#30/#32/#33 and invoice INV-000002 when done (or ask me to — it's one API call each now that delete works).
+
+Once any of those Accepts happen, tell me and I'll immediately pull the resulting invoice amounts, statuses, and Opportunity movement via API and finish the remaining verdicts — that part needs no browser.
+
+**Alternative:** if you'd rather I do the clicking, this session's environment network policy would need `link.fastpaydirect.com` and `email.mail.propertyrenovatorshomeservices.com` on its allowlist (network access is chosen per-environment — see https://code.claude.com/docs/en/claude-code-on-the-web). With those unblocked I can drive the whole flow in Chromium, screenshots included, except entering real card details.
 
 ## The message to send Olu (once, complete)
 
