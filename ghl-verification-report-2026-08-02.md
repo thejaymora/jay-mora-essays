@@ -26,7 +26,7 @@
 | 4 | Branding / email templates | **CONFIRMED BROKEN** — logo renders but is the **wrong brand** (Handyman Services); templates still blank |
 | 5 | Variants / multi-select line items | **CONFIRMED NOT DONE** |
 | 6 | Deposit-paid → Opportunity automation | **CONFIRMED NOT DONE** (still draft, unpublished) |
-| 7 | SSL cert on email tracking domain | **UNABLE TO TEST** here — and it matters more than we thought (see below) |
+| 7 | SSL cert on email tracking domain | **CONFIRMED FIXED** — TLS validates; Aug 3 browser test returned a server 404, no cert warning |
 | 8 | Estimate void/cancel capability | **RESOLVED** — a working DELETE endpoint exists; full status enum mapped |
 | — | Jay's real contact (data damage) | **REPAIRED** — `source` restored to "Send Us Your Photos" |
 | — | Test data cleanup | **DONE** — 11 estimates deleted; opportunities were already gone |
@@ -250,3 +250,13 @@ Outstanding once the connector is approved:
 - Any **certificate warning** when clicking through from Gmail? (item 7 — his screenshot shows `link.fastpaydirect.com` loading cleanly, which suggests resolved, but unconfirmed)
 - Visual on estimate **#29 or #30** (no-deposit flow)
 - Does he log in as office@propertyrenovatorsgroup.com?
+
+## Item 7 — CONFIRMED FIXED (Aug 3, browser test)
+
+Jay loaded `https://email.mail.propertyrenovatorshomeservices.com` directly in mobile Safari. Result: a server-rendered **"404 page not found"** with **no certificate warning**.
+
+That is a pass, not a failure. Rendering a server-generated 404 body requires DNS resolution, TCP connect, **successful TLS validation**, and an HTTP response. An invalid certificate would have produced a full-screen "This Connection Is Not Private" interstitial instead, with no page content. A 404 at the bare root is also expected — the host serves only `/c/<token>` (click) and `/o/<token>` (open) tracking paths and has no homepage.
+
+Corroborated independently: Jay's Aug 3 click-through from Gmail to estimate #33 traversed this same domain and landed on `link.fastpaydirect.com` without interruption.
+
+**Remove from Olu's list.**
